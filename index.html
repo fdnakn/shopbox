@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="navbarlogo" href="#">Logo</a>
+      <a class="navbarhome" href="#">Home</a>
+
+
+      <div class="shop">
+        <button type="button" class="btn-cart" id="btn-cart" onclick="carttoggle()">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="item-count" class="item-count">0</span>
+        </button>
+        <div class="shoplistbox" id="shoplistbox">
+          <h3>Shopping Cart</h3>
+          <div class="shoplist">
+            <!-- <div class="shoplist-img">
+              <img src="https://cdn.cimri.io/image/1000x1000/appleiphonesegbinmpakllceptelefonu_232395062.jpg" alt="">
+            </div>
+            <div class="shoplist-tittle">
+              <h3 >Iphone SE</h3>
+            </div>
+            <div class="shoplist-price">
+              <h3>450$</h3>
+            </div>
+            <div class="shoplist-trash">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      
+
+    </nav>
+  </header>
+
+  <section>
+    <div class="card" class="card">
+      <div class="card-img">
+        <img class="card-imgg" src="https://cdn.cimri.io/image/1000x1000/appleiphonesegbinmpakllceptelefonu_232395062.jpg" alt="">
+      </div>
+      <h3 class="card-tittle">Iphone SE</h3>
+      <p>Some quick ecample text to build on the card tittle and make up the bulk of the card's content.</p>
+      <div class="btnandprice">
+        <button class="btnadd" type="button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+        <h4 class="card-price">$450</h4>
+      </div>
+    </div>
+    <div class="card" class="card">
+      <div class="card-img">
+        <img class="card-imgg" src="https://cdn.cimri.io/image/1000x1000/apple-iphone-x-64-gb-58-inc-12-mp-akilli-cep-telefonu_90812389.jpg" alt="">
+      </div>
+      <h3 class="card-tittle">Iphone 11</h3>
+      <p>Some quick ecample text to build on the card tittle and make up the bulk of the card's content.</p>
+      <div class="btnandprice">
+        <button class="btnadd" type="button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+        <h4 class="card-price">$790</h4>
+      </div>
+    </div>
+    <div class="card" class="card">
+      <div class="card-img">
+        <img class="card-imgg"  src="https://cdn.cimri.io/image/1000x1000/appleiphonegbakllceptelefonu_178954840.jpg" alt="">
+      </div>
+      <h3 class="card-tittle">Iphone 12</h3>
+      <p>Some quick ecample text to build on the card tittle and make up the bulk of the card's content.</p>
+      <div class="btnandprice">
+        <button class="btnadd" type="button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+        <h4 class="card-price">$1000</h4>
+      </div>
+    </div>
+    <div class="card" class="card">
+      <div class="card-img">
+        <img class="card-imgg" src="https://cdn.cimri.io/image/1000x1000/apple-iphone-12-5g-64gb-4gb-ram-61-inc-12mp-akilli-cep-telefonu_379106608.jpg" alt="">
+      </div>
+      <h3 class="card-tittle">Iphone 13</h3>
+      <p>Some quick ecample text to build on the card tittle and make up the bulk of the card's content.</p>
+      <div class="btnandprice">
+        <button class="btnadd" type="button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+        <h4 class="card-price">$1500</h4>
+      </div>
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
